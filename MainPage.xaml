@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Lab6ListView.MainPage">
+
+    <StackLayout>
+        <Frame BackgroundColor="LightGreen" Padding="24" CornerRadius="0">
+            <Label Text="Welcome to Xamarin.Forms!" HorizontalTextAlignment="Center" TextColor="White" FontSize="36"/>
+        </Frame>
+        <StackLayout>
+            <Button x:Name="Item14" Text="ListViewSource"/>
+        </StackLayout>
+        
+        <StackLayout>
+            <StackLayout Orientation="Horizontal" HorizontalOptions="Center">
+                <Button x:Name="Item12" Text="ListViewDemo"/>
+                <Button x:Name="Item13" Text="ListViewCode"/>
+                
+            </StackLayout>
+        </StackLayout>
+        
+    </StackLayout>
+
+</ContentPage>
