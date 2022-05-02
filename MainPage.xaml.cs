@@ -26,7 +26,10 @@ namespace Lab6ListView
             {
                 await Navigation.PushAsync(new ListViewSource());
             };
-
+            Item15.Clicked += async (sender, e) =>
+             {
+                 await Navigation.PushAsync(new ListViewGroup());
+             };
         }
     }
 }

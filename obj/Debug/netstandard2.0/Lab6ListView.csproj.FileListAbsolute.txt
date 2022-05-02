@@ -6,6 +6,7 @@ D:\DANIEL\Aplicaciones_multiplataforma\proyectos\Lab6ListView\Lab6ListView\Lab6L
 D:\DANIEL\Aplicaciones_multiplataforma\proyectos\Lab6ListView\Lab6ListView\Lab6ListView\obj\Debug\netstandard2.0\App.xaml.g.cs
 D:\DANIEL\Aplicaciones_multiplataforma\proyectos\Lab6ListView\Lab6ListView\Lab6ListView\obj\Debug\netstandard2.0\ListViewCode.xaml.g.cs
 D:\DANIEL\Aplicaciones_multiplataforma\proyectos\Lab6ListView\Lab6ListView\Lab6ListView\obj\Debug\netstandard2.0\ListViewDemo.xaml.g.cs
+D:\DANIEL\Aplicaciones_multiplataforma\proyectos\Lab6ListView\Lab6ListView\Lab6ListView\obj\Debug\netstandard2.0\ListViewGroup.xaml.g.cs
 D:\DANIEL\Aplicaciones_multiplataforma\proyectos\Lab6ListView\Lab6ListView\Lab6ListView\obj\Debug\netstandard2.0\ListViewSource.xaml.g.cs
 D:\DANIEL\Aplicaciones_multiplataforma\proyectos\Lab6ListView\Lab6ListView\Lab6ListView\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
 D:\DANIEL\Aplicaciones_multiplataforma\proyectos\Lab6ListView\Lab6ListView\Lab6ListView\obj\Debug\netstandard2.0\Lab6ListView.AssemblyInfoInputs.cache

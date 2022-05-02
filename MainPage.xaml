@@ -3,11 +3,11 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Lab6ListView.MainPage">
 
-    <StackLayout>
+    <StackLayout BackgroundColor="#45FFFA">
         <Frame BackgroundColor="LightGreen" Padding="24" CornerRadius="0">
-            <Label Text="Welcome to Xamarin.Forms!" HorizontalTextAlignment="Center" TextColor="White" FontSize="36"/>
+            <Label Text="ListViews" HorizontalTextAlignment="Center" TextColor="White" FontSize="36"/>
         </Frame>
-        <StackLayout>
+        <StackLayout >
             <Button x:Name="Item14" Text="ListViewSource"/>
         </StackLayout>
         
@@ -16,6 +16,10 @@
                 <Button x:Name="Item12" Text="ListViewDemo"/>
                 <Button x:Name="Item13" Text="ListViewCode"/>
                 
+            </StackLayout>
+
+            <StackLayout HorizontalOptions="Center">
+                <Button x:Name="Item15" Text="ListViewGroup"/>
             </StackLayout>
         </StackLayout>
         

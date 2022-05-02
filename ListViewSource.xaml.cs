@@ -14,7 +14,7 @@ namespace Lab6ListView
     public partial class ListViewSource : ContentPage
     {
         ObservableCollection<Employee> employees = new ObservableCollection<Employee>();
-        ObservableCollection<Employee>  Employees  { get { return employees; } }
+        public ObservableCollection<Employee>  Employees  { get { return employees; } }
         public ListViewSource()
         {
             InitializeComponent();

@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Lab6ListView.ListViewGroup">
+    <ContentPage.Content>
+        <StackLayout BackgroundColor="MediumSpringGreen" >
+            <Frame BackgroundColor="OrangeRed" Padding="20" Margin="7">
+                <Label Text="Equipos de fútbol Sudamericano" HorizontalTextAlignment="Center"  FontSize="36"/>
+                
+            </Frame>
+            <ListView ItemsSource="{Binding TeamsList}" IsGroupingEnabled="True" GroupDisplayBinding="{Binding Name}" 
+                      VerticalScrollBarVisibility="Always"  >
+                
+                <ListView.ItemTemplate >
+                    <DataTemplate  >
+                        <TextCell Text="{Binding Nombre}"  Detail="{ Binding Path=DT_actual}" 
+                                  DetailColor="Blue" Height="300" />
+                    </DataTemplate>
+                    
+                </ListView.ItemTemplate>
+                
+
+            </ListView>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
